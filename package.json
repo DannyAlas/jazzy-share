@@ -10,6 +10,10 @@
     "deploy:dev": "docker buildx build --push --tag stonith404/pingvin-share:development --platform linux/amd64,linux/arm64 ."
   },
   "devDependencies": {
-    "conventional-changelog-cli": "^3.0.0"
+    "conventional-changelog-cli": "^3.0.0",
+    "prisma": "^5.10.2"
+  },
+  "dependencies": {
+    "@prisma/client": "5.10.2"
   }
 }

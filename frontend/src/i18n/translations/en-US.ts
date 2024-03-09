@@ -74,7 +74,7 @@ export default {
   "resetPassword.title": "Forgot your password?",
   "resetPassword.description": "Enter your email to reset your password.",
   "resetPassword.notify.success":
-    "A message with a link to reset your password has been sent if the email exists.",
+    "A message with a link to reset your password has been sent if the email exists. Ensure the email is correct and check your spam folder. You can message me if it still doesn't work, but I swear on all that is holy, if I find out you didn't check your spam folder or even worse mistyped, I will find you and I will... well I don't know what I will do but I will be mad.",
   "resetPassword.button.back": "Back to sign in page",
   "resetPassword.text.resetPassword": "Reset password",
   "resetPassword.text.enterNewPassword": "Enter your new password",
@@ -88,13 +88,13 @@ export default {
   "account.card.info.title": "Account info",
   "account.card.info.username": "Username",
   "account.card.info.email": "Email",
-  "account.notify.info.success": "Account updated successfully",
+  "account.notify.info.success": "The server worked tirelessly just to update your info. Hope you're happy.",
 
   "account.card.password.title": "Password",
   "account.card.password.old": "Old password",
   "account.card.password.new": "New password",
   "account.card.password.noPasswordSet":
-    "You don't have a password set. If you want to sign in with email and password you need to set a password.",
+    "You don't have a password set. How on earth do you expect sign in? Go set one!",
   "account.notify.password.success": "Password changed successfully",
 
   "account.card.oauth.title": "Social login",
@@ -108,7 +108,7 @@ export default {
   "account.card.oauth.unlinked": "Unlinked",
   "account.modal.unlink.title": "Unlink account",
   "account.modal.unlink.description":
-    "Unlinking your social accounts may cause you to lose your account if you don't remember your username and password.",
+    "Are you sure you want to unlink your {provider} account? If you don't remember your password you won't be able to sign in anymore. And don't come crying to me if you lose access to your account.",
   "account.notify.oauth.unlinked.success": "Unlinked successfully",
 
   "account.card.security.title": "Security",
@@ -129,24 +129,24 @@ export default {
 
   "account.card.language.title": "Language",
   "account.card.language.description":
-    "The project is translated by the community. Some languages might be incomplete.",
+    "The project is translated by random nice people.",
   "account.card.color.title": "Color scheme",
 
   // ThemeSwitcher.tsx
-  "account.theme.dark": "Dark",
-  "account.theme.light": "Light",
-  "account.theme.system": "System",
+  "account.theme.dark": "Death Metal",
+  "account.theme.light": "Sunshines and rainbows",
+  "account.theme.system": "Let the lord decide",
 
   "account.button.delete": "Delete Account",
   "account.modal.delete.title": "Delete Account",
   "account.modal.delete.description":
-    "Do you really want to delete your account including all your active shares?",
+    "Do you really want to delete your account including all your active shares? This action is irreversible... and makes me sad.",
   // END /account
 
   // /account/shares
   "account.shares.title": "My shares",
   "account.shares.title.empty": "It's empty here 👀",
-  "account.shares.description.empty": "You don't have any shares.",
+  "account.shares.description.empty": "You don't have any shares. Go share something!",
   "account.shares.button.create": "Create one",
 
   "account.shares.info.title": "Share informations",
@@ -163,14 +163,14 @@ export default {
 
   "account.shares.modal.delete.title": "Delete share {share}",
   "account.shares.modal.delete.description":
-    "Do you really want to delete this share?",
+    "Do you really want to delete this share? Once it's gone, it's gone. Forever.",
 
   // END /account/shares
 
   // /account/reverseShares
   "account.reverseShares.title": "Reverse shares",
   "account.reverseShares.description":
-    "A reverse share allows you to generate a unique URL that allows external users to create a share.",
+    "A reverse share allows someone else to share something with you using a link. Cool right?",
 
   "account.reverseShares.title.empty": "It's empty here 👀",
   "account.reverseShares.description.empty":
@@ -205,7 +205,7 @@ export default {
   "account.reverseShare.expires-on":
     "This reverse share will expire on {expiration}.",
 
-  "account.reverseShares.table.no-shares": "No shares created yet",
+  "account.reverseShares.table.no-shares": "GO SHARE SOMETHING!",
   "account.reverseShares.table.count.singular": "share",
   "account.reverseShares.table.count.plural": "shares",
   "account.reverseShares.table.shares": "Shares",
@@ -264,13 +264,13 @@ export default {
   "upload.title": "Upload",
 
   "upload.notify.generic-error":
-    "An error occurred while finishing your share.",
+    "An error occurred while finishing your share. Msg Danny if this continues to happen.",
   "upload.notify.count-failed": "{count} files failed to upload. Trying again.",
 
   // Dropzone.tsx
   "upload.dropzone.title": "Upload files",
   "upload.dropzone.description":
-    "Drag'n'drop files here to start your share. We can accept only files that are less than {maxSize} in total.",
+    "Drag'n'drop files here to start your share. Limit is {maxSize}. Message Danny if you need more space.",
   "upload.dropzone.notify.file-too-big":
     "Your files exceed the maximum share size of {maxSize}.",
 
@@ -285,7 +285,7 @@ export default {
   "upload.modal.link.error.taken": "This link is already in use",
   "upload.modal.not-signed-in": "You're not signed in",
   "upload.modal.not-signed-in-description":
-    "You will be unable to delete your share manually and view the visitor count.",
+    "You won't be able to manipulate share or view the visitor count.",
 
   "upload.modal.expires.never": "never",
   "upload.modal.expires.never-long": "Never Expires",
@@ -521,19 +521,19 @@ export default {
   "error.title": "Error",
   "error.description": "Oops!",
   "error.button.back": "Go back",
-  "error.msg.default": "Something went wrong.",
+  "error.msg.default": "idk how you got here but I have nothing for you. Go elsewhere young padawan.",
   "error.msg.access_denied":
-    "You canceled the authentication process, please try again.",
+    "You canceled the authentication process dumbass. Why don't you try again and don't cancel it this time?",
   "error.msg.expired_token":
-    "The authentication process took too long, please try again.",
-  "error.msg.invalid_token": "Internal Error",
-  "error.msg.no_user": "User linked to this {0} account doesn't exist.",
-  "error.msg.no_email": "Can't get email address from this {0} account.",
+    "The authentication peeps took too long to get back to me. Try again and if it continues msg me.",
+  "error.msg.invalid_token": "Ehhhhhhhh, you trynna do some hakermans stuff over there?",
+  "error.msg.no_user": "User linked to this {0} account doesn't exist. Wish I had more for you but they probably just deleted it.",
+  "error.msg.no_email": "This person didn't link an email address to their {0} account. Sowy",
   "error.msg.already_linked":
-    "This {0} account is already linked to another account.",
-  "error.msg.not_linked": "This {0} account haven't linked to any account yet.",
+    "This {0} account is already linked to another account...",
+  "error.msg.not_linked": "This {0} account isn't linked to any account yet? I don't even know how managed that but conrats",
   "error.msg.unverified_account":
-    "This {0} account is unverified, please try again after verification.",
+    "This {0} account is unverified. Go verify it first",
   "error.msg.discord_guild_permission_denied":
     "You are not allowed to sign in.",
   "error.msg.cannot_get_user_info":
@@ -564,11 +564,11 @@ export default {
   "common.success": "Success",
 
   "common.error": "Error",
-  "common.error.unknown": "An unknown error occurred",
-  "common.error.invalid-email": "Invalid email address",
-  "common.error.too-short": "Must be at least {length} characters",
-  "common.error.too-long": "Must be at most {length} characters",
-  "common.error.exact-length": "Must be exactly {length} characters",
-  "common.error.invalid-number": "Must be a number",
-  "common.error.field-required": "This field is required",
+  "common.error.unknown": "I messed up. Try again and if it continues msg Danny.",
+  "common.error.invalid-email": "Invalid email address, dummy",
+  "common.error.too-short": "Must be at least {length} characters, I don't make the rules... oh wait I do.",
+  "common.error.too-long": "Must be at most {length} characters, I don't make the rules... oh wait I do.",
+  "common.error.exact-length": "Must be exactly {length} characters, I'm just a messenger... don't shoot me.",
+  "common.error.invalid-number": "Really? That's not a number.",
+  "common.error.field-required": "Ussually I don't like to be bossy but this field is required.",
 };

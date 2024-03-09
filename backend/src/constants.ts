@@ -1,4 +1,5 @@
-export const DATA_DIRECTORY = process.env.DATA_DIRECTORY || "./data";
+export const DATA_DIRECTORY = process.env.DATA_DIRECTORY;
+console.log(`DATA_DIRECTORY: ${DATA_DIRECTORY}`);
 export const SHARE_DIRECTORY = `${DATA_DIRECTORY}/uploads/shares`;
 export const DATABASE_URL =
   process.env.DATABASE_URL ||

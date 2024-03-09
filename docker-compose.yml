@@ -8,6 +8,7 @@ services:
     volumes:
       - "./data:/opt/app/backend/data"
       - "./data/images:/opt/app/frontend/public/img"
+    env_file: stack.env
 # Optional: If you add ClamAV, uncomment the following to have ClamAV start first.
 #    depends_on:
 #      clamav:
