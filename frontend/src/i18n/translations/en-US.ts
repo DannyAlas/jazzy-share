@@ -32,8 +32,8 @@ export default {
   // END /
 
   // /auth/signin
-  "signin.title": "Welcome back",
-  "signin.description": "You don't have an account yet?",
+  "signin.title": "Wait, who are you?",
+  "signin.description": "Don't have an account?",
   "signin.button.signup": "Sign up",
   "signin.input.email-or-username": "Email or username",
   "signin.input.email-or-username.placeholder": "Your email or username",
@@ -42,7 +42,7 @@ export default {
   "signin.button.submit": "Sign in",
   "signIn.notify.totp-required.title": "Two-factor authentication required",
   "signIn.notify.totp-required.description":
-    "Please enter your two-factor authentication code",
+    "Enter your two-factor authentication code",
   "signIn.oauth.or": "OR",
   "signIn.oauth.github": "GitHub",
   "signIn.oauth.google": "Google",
@@ -342,7 +342,7 @@ export default {
 
   "share.modal.password.title": "Password required",
   "share.modal.password.description":
-    "To access this share please enter the password for the share.",
+    "To access this share enter the password for the share.",
   "share.modal.password": "Password",
   "share.modal.error.invalid-password": "Invalid password",
 
@@ -356,7 +356,7 @@ export default {
 
   "share.modal.file-preview.error.not-supported.title": "Preview not supported",
   "share.modal.file-preview.error.not-supported.description":
-    "A preview for this file type is unsupported. Please download the file to view it.",
+    "A preview for this file type is unsupported. Download the file to view it.",
 
   // END /share/[id]
 
